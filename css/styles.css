@@ -1,0 +1,71 @@
+body {
+  color: #757575;
+  background-color: #e5e5e5;
+}
+/* цвет основного тектса #757575 */
+/* вторичный цвет #212121 */
+/*  акцент #2196F3 */
+/* белый #FFFFFF */
+/* adress text rgba(255, 255, 255, 0.6); */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #2F303A */
+/* фон блока #F5F4FA; */
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.logo-text {
+  color: #2196f3;
+}
+/*Site nav*/
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth .link {
+  color: #212121;
+}
+.auth .link:hover,
+.auth .link:focus {
+  color: #2196f3;
+}
+/*блок заказа услуг*/
+.hero {
+  color: #ffffff;
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* Main info */
+.feature {
+}
+.feature-title {
+}
