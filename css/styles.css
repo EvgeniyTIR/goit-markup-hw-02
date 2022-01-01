@@ -1,6 +1,7 @@
 body {
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  letter-spacing: 0.03em;
 }
 :root {
   --primary-text-color: #757575;
@@ -20,16 +21,10 @@ body {
   list-style: none;
 }
 .logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -70,13 +65,6 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 /* Main info */
 .feature {
@@ -122,3 +110,41 @@ body {
 }
 /* --ПОРТФОЛИО-- 
 Фильтр списка проєктов */
+.filter-section {
+}
+
+.filter-button {
+  color: var(--primary-title-text);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+}
+
+.filter-title {
+  color: var(--primary-title-text);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.filter-text {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+}
